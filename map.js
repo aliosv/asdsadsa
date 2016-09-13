@@ -37,7 +37,11 @@ $(function() {
                             });
                         })).then(function(data) {
                             clusterer.removeAll().add(data.map(function(geometry, index) {
-                                return new ymaps.Placemark(geometry, stores[index], {
+                                return new ymaps.Placemark(geometry, {
+                                    balloonContent : '<span>' + stores[index].dealername + '</span><br>' +
+                                    stores[index].street + ', ' + stores[index].house +
+                                    ' <a href="" class="go_mag"></a>'
+                                }, {
                                     iconLayout : 'default#image',
                                     iconImageHref : '/img/map.png',
                                     iconImageSize : [68, 57],
@@ -158,9 +162,6 @@ $(function() {
                                                 return element && element[0] && element.find('.arrow')[0];
                                             }
                                         }),
-                                    balloonContentLayout : ymaps.templateLayoutFactory.createClass(
-                                        '<span>{{properties.dealername}}</span><br>{{properties.street}}, {{properties.house}} <a href="" class="go_mag"></a>'
-                                    ),
                                     balloonPanelMaxMapArea : 0,
                                     hideIconOnBalloonOpen : false,
                                     balloonOffset : [0, 0]
