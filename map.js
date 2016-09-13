@@ -159,7 +159,7 @@ $(function() {
                                             }
                                         }),
                                     balloonContentLayout : ymaps.templateLayoutFactory.createClass(
-                                        '<span>{{properties.dealername}}</span><br>[store.street, store.house].join(\', \') <a href="" class="go_mag"></a>'
+                                        '<span>{{properties.dealername}}</span><br>{[{properties.street}, {properties.house}].join(\', \')} <a href="" class="go_mag"></a>'
                                     ),
                                     balloonPanelMaxMapArea : 0,
                                     hideIconOnBalloonOpen : false,
