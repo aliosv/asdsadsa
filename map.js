@@ -48,7 +48,7 @@ $(function() {
                                         '<a class="close" href="#">&times;</a>' +
                                         '<div class="arrow"></div>' +
                                         '<div class="popover-inner">' +
-                                        '[[options.contentLayout]]' +
+                                        '$[[options.contentLayout]]' +
                                         '</div>' +
                                         '</div>', {
                                             /**
