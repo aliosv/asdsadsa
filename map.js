@@ -170,15 +170,23 @@ $(function() {
                 if(!city) {
                     clusterer.removeAll();
                 } else {
-                    getStoresByCity(city).then(function(points) {
-                        clusterer.add(points.map(function(data) {
-                            return new ymaps.Placemark(data, getPointData(data), getPointOptions())
-                        }));
+                    getStoresByCity(city).then(function(data) {
+                        return ymaps.vow.all(data.map(function(store) {
+                            var address = [store.city, store.street, store.house].join(' ');
 
-                        myMap.setBounds(clusterer.getBounds(), {
-                            checkZoomRange : true
+                            return ymaps.geocode(address).then(function(data) {
+                                return data.geoObjects.get(0);
+                            });
+                        })).then(function(data) {
+                            clusterer.removeAll().add(data.map(function(geometry) {
+                                return new ymaps.Placemark(geometry, getPointData(geometry), getPointOptions());
+                            }));
+
+                            myMap.setBounds(clusterer.getBounds(), {
+                                checkZoomRange : true
+                            });
                         });
-                    }, function() {
+                    }).fail(function() {
                         clusterer.removeAll();
                     });
                 }
