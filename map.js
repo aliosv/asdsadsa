@@ -175,7 +175,7 @@ $(function() {
                             var address = [store.city, store.street, store.house].join(' ');
 
                             return ymaps.geocode(address).then(function(data) {
-                                return data.geoObjects.get(0);
+                                return data.geoObjects.get(0).geometry;
                             });
                         })).then(function(data) {
                             clusterer.removeAll().add(data.map(function(geometry) {
