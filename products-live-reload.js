@@ -15,7 +15,7 @@ $(function() {
                 if((new Date()) - requestStartTime > delay) {
                     clearInterval(t);
 
-                    if(request.isResolved()) {
+                    if(request.state() === 'resolved') {
                         $catalog.replaceWith(html);
                     } else {
                         $catalog.html('<div class="products-catalog__error">Произошла ошибка, попробуйте' +
