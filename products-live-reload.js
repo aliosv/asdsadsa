@@ -4,7 +4,7 @@ $(function() {
 
         var $catalog = $(this).parents('.table').eq(0);
 
-        $.get('/shop/jsmodules/item/market.php' + location.search).then(function(html) {
+        $.get('/shop/jsmodules/item/market.php' + $(this).attr('href')).then(function(html) {
             $catalog.replaceWith(html);
         });
     });
