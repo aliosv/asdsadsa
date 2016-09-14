@@ -7,14 +7,15 @@ $(function() {
         $catalog.addClass('products-catalog_pending');
 
         var delay = 200,
-            requestStartTime = new Date();
+            requestStartTime = new Date(),
+            request = $.get('/shop/jsmodules/item/market.php' + $(this).attr('href'));
 
-        $.get('/shop/jsmodules/item/market.php' + $(this).attr('href')).always(function(deferred, html) {
+        request.always(function(html) {
             var t = setInterval(function() {
                 if((new Date()) - requestStartTime > delay) {
                     clearInterval(t);
 
-                    if(deferred.isResolved()) {
+                    if(request.isResolved()) {
                         $catalog.replaceWith(html);
                     } else {
                         $catalog.html('<div class="products-catalog__error">Произошла ошибка, попробуйте' +
