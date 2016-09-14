@@ -9,7 +9,7 @@ $(function() {
         var delay = 200,
             requestStartTime = new Date();
 
-        $.get('/shop/jsmodules/item/market.php' + $(this).attr('href')).always(function(deferred) {
+        $.get('/shop/jsmodules/item/market.php' + $(this).attr('href')).always(function(deferred, html) {
             var t = setInterval(function() {
                 if((new Date()) - requestStartTime > delay) {
                     clearInterval(t);
