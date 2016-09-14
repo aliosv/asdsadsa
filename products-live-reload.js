@@ -18,8 +18,7 @@ $(function() {
                     if(request.state() === 'resolved') {
                         $catalog.replaceWith(html);
                     } else {
-                        $catalog.html('<div class="products-catalog__error">Произошла ошибка, попробуйте' +
-                            ' перезагрузить страницу</div>');
+                        $catalog.addClass('products-catalog_error');
                         $catalog.removeClass('products-catalog_pending');
                     }
                 }
