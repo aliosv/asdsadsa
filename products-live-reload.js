@@ -9,17 +9,20 @@ $(function() {
         var delay = 200,
             requestStartTime = new Date();
 
-        $.get('/shop/jsmodules/item/market.php' + $(this).attr('href')).then(function(html) {
+        $.get('/shop/jsmodules/item/market.php' + $(this).attr('href')).always(function(deferred) {
             var t = setInterval(function() {
                 if((new Date()) - requestStartTime > delay) {
                     clearInterval(t);
 
-                    $catalog.replaceWith(html);
+                    if(deferred.isResolved()) {
+                        $catalog.replaceWith(html);
+                    } else {
+                        $catalog.html('<div class="products-catalog__error">Произошла ошибка, попробуйте' +
+                            ' перезагрузить страницу</div>');
+                        $catalog.removeClass('products-catalog_pending');
+                    }
                 }
             }, 100);
-        }, function() {
-            $catalog.replaceWith('<div class="products-catalog__error">Произошла ошибка, попробуйте перезагрузить страницу</div>');
-            $catalog.removeClass('products-catalog_pending');
         });
     });
 });
