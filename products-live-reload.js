@@ -35,6 +35,7 @@ $(function() {
     $(document.body).on('click', '.products-catalog__nav-link', function(e) {
         var url = $(this).attr('href');
 
+        History.replaceState({ url : location.search, productsList : true }, null, location.search);
         History.pushState({ url : url, productsList : true }, null, url);
 
         e.preventDefault();
