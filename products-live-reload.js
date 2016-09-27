@@ -1,28 +1,48 @@
 $(function() {
-    $(document.body).on('click', '.products-catalog__nav-link', function(e) {
-        e.preventDefault();
+    var updateContent = (function() {
+        var lastRequest;
 
-        var $catalog = $(this).parents('.products-catalog').eq(0);
+        return function(url) {
+            var $catalog = $('.products-catalog').eq(0);
 
-        $catalog.addClass('products-catalog_pending');
+            $catalog.addClass('products-catalog_pending');
 
-        var delay = 200,
-            requestStartTime = new Date(),
-            request = $.get('/shop/jsmodules/item/market.php' + $(this).attr('href'));
+            var delay = 200,
+                requestStartTime = new Date(),
+                request = $.get(url);
 
-        request.always(function(html) {
-            var t = setInterval(function() {
-                if((new Date()) - requestStartTime > delay) {
-                    clearInterval(t);
+            lastRequest = request;
+            request.always(function(html) {
+                // handle only last request
+                if(lastRequest !== request) return;
 
-                    if(request.state() === 'resolved') {
-                        $catalog.replaceWith(html);
-                    } else {
-                        $catalog.addClass('products-catalog_error');
-                        $catalog.removeClass('products-catalog_pending');
+                var t = setInterval(function() {
+                    if((new Date()) - requestStartTime > delay) {
+                        clearInterval(t);
+
+                        if(request.state() === 'resolved') {
+                            $catalog.replaceWith(html);
+                        } else {
+                            $catalog.addClass('products-catalog_error');
+                            $catalog.removeClass('products-catalog_pending');
+                        }
                     }
-                }
-            }, 100);
-        });
+                }, 100);
+            });
+        };
+    }());
+
+    $(document.body).on('click', '.products-catalog__nav-link', function(e) {
+        var url = $(this).attr('href');
+
+        History.pushState({ url : url }, null, url);
+
+        e.preventDefault();
+    });
+
+    $(window).bind('popstate', function(e) {
+        var state = History.getState() || { data : {} };
+
+        state.data.url && updateContent('/shop/jsmodules/item/market.php' + state.data.url);
     });
 });
