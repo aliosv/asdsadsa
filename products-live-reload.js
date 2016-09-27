@@ -35,14 +35,14 @@ $(function() {
     $(document.body).on('click', '.products-catalog__nav-link', function(e) {
         var url = $(this).attr('href');
 
-        History.pushState({ url : url }, null, url);
+        History.pushState({ url : url, productsList : true }, null, url);
 
         e.preventDefault();
     });
 
-    $(window).bind('popstate', function(e) {
+    $(window).bind('popstate', function() {
         var state = History.getState() || { data : {} };
 
-        state.data.url && updateContent('/shop/jsmodules/item/market.php' + state.data.url);
+        state.data.productsList && updateContent('/shop/jsmodules/item/market.php' + state.data.url);
     });
 });
