@@ -32,7 +32,7 @@ $(function() {
         };
     }());
 
-    History.replaceState({ url : location.search, productsList : true }, null, location.search);
+    //History.replaceState({ url : location.search, productsList : true }, null, location.search);
 
     $(document.body).on('click', '.products-catalog__nav-link', function(e) {
         var url = $(this).attr('href');
