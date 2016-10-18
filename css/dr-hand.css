@@ -37,14 +37,6 @@
     line-height: 20px;
 }
 
-.dr-hand__description p {
-    margin: 0;
-}
-
-.dr-hand__description ul {
-    padding: 0 0 0 15px;
-}
-
 .dr-hand__logo,
 .dr-hand__description {
     transition: all .3s ease-out;
@@ -82,13 +74,12 @@
         width: 307px;
     }
 
-    .dr-hand__description ul {
+    .dr-hand__description .banner__list {
         margin: 21px -10px 0 0;
-        padding: 0 0 0 15px;
         line-height: 25px;
     }
 
-    .dr-hand__description ul li + li {
+    .dr-hand__description .banner__list-item + .banner__list-item {
         margin-top: 20px;
     }
 }
@@ -124,9 +115,8 @@
         width: 383px;
     }
 
-    .dr-hand__description ul {
+    .dr-hand__description .banner__list {
         margin: 26px 0 0;
-        padding: 0 0 0 15px;
         line-height: 25px;
     }
 }
@@ -162,9 +152,8 @@
         width: 427px;
     }
 
-    .dr-hand__description ul {
+    .dr-hand__description .banner__list {
         margin: 17px -40px 0 0;
-        padding: 0 0 0 15px;
         line-height: 25px;
     }
 }
@@ -199,9 +188,8 @@
         width: 429px;
     }
 
-    .dr-hand__description ul {
+    .dr-hand__description .banner__list {
         margin: 21px -40px 0 0;
-        padding: 0 0 0 15px;
         line-height: 25px;
     }
 }
@@ -236,7 +224,7 @@
         width: 556px;
     }
 
-    .dr-hand__description ul {
+    .dr-hand__description .banner__list {
         margin: 28px 0 0;
         line-height: 30px;
     }

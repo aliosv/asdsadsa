@@ -20,6 +20,12 @@ html, body {
     transition: all .3s ease-out;
 }
 
+.banner__list-item {
+    display: list-item;
+    margin: 0 0 0 15px;
+    list-style-type: disc;
+}
+
 @media all and (max-width: 759px) {
     .banner__inner {
         width: 340px;
