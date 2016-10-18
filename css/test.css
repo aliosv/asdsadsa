@@ -27,191 +27,191 @@ input:checked ~ .banner:before {
 }
 
 @media all and (max-width: 760px) {
-    .collagen.banner:before {
+    .banner_collagen:before {
         background-image: url(../test-images/banner_collagen_360.png);
     }
 
-    .dr-hand.banner:before {
+    .banner_dr-hand:before {
         background-image: url(../test-images/banner_dr-hand_360.png);
     }
 
-    .dr-foot.banner:before {
+    .banner_dr-foot:before {
         background-image: url(../test-images/banner_dr-foot_360.png);
     }
 
-    .sun-power.banner:before {
+    .banner_sun-power:before {
         background-image: url(../test-images/banner_sun-power_360.png);
     }
 
-    .bio-formula.banner:before {
+    .banner_bio-formula:before {
         background-image: url(../test-images/banner_bio-formula_360.png);
     }
 
-    .detoxive.banner:before {
+    .banner_detoxive:before {
         background-image: url(../test-images/banner_detoxive_360.png);
     }
 
-    .orange-slim.banner:before {
+    .banner_orange-slim:before {
         background-image: url(../test-images/banner_orange-slim_360.png);
     }
 
-    .stop-problem.banner:before {
+    .banner_stop-problem:before {
         background-image: url(../test-images/banner_stop-problem_360.png);
     }
 
-    .fruit-kiss.banner:before {
+    .banner_fruit-kiss:before {
         background-image: url(../test-images/banner_fruit-kiss_360.png);
     }
 }
 
 @media all and (min-width: 760px) {
-    .collagen.banner:before {
+    .banner_collagen:before {
         background-image: url(../test-images/banner_collagen_760.png);
     }
 
-    .dr-hand.banner:before {
+    .banner_dr-hand:before {
         background-image: url(../test-images/banner_dr-hand_760.png);
     }
 
-    .dr-foot.banner:before {
+    .banner_dr-foot:before {
         background-image: url(../test-images/banner_dr-foot_760.png);
     }
 
-    .sun-power.banner:before {
+    .banner_sun-power:before {
         background-image: url(../test-images/banner_sun-power_760.png);
     }
 
-    .bio-formula.banner:before {
+    .banner_bio-formula:before {
         background-image: url(../test-images/banner_bio-formula_760.png);
     }
 
-    .detoxive.banner:before {
+    .banner_detoxive:before {
         background-image: url(../test-images/banner_detoxive_760.png);
     }
 
-    .orange-slim.banner:before {
+    .banner_orange-slim:before {
         background-image: url(../test-images/banner_orange-slim_760.png);
     }
 
-    .stop-problem.banner:before {
+    .banner_stop-problem:before {
         background-image: url(../test-images/banner_stop-problem_760.png);
     }
 
-    .fruit-kiss.banner:before {
+    .banner_fruit-kiss:before {
         background-image: url(../test-images/banner_fruit-kiss_760.png);
     }
 }
 
 @media all and (min-width: 1000px) {
-    .collagen.banner:before {
+    .banner_collagen:before {
         background-image: url(../test-images/banner_collagen_1000.png);
     }
 
-    .dr-hand.banner:before {
+    .banner_dr-hand:before {
         background-image: url(../test-images/banner_dr-hand_1000.png);
     }
 
-    .dr-foot.banner:before {
+    .banner_dr-foot:before {
         background-image: url(../test-images/banner_dr-foot_1000.png);
     }
 
-    .sun-power.banner:before {
+    .banner_sun-power:before {
         background-image: url(../test-images/banner_sun-power_1000.png);
     }
 
-    .bio-formula.banner:before {
+    .banner_bio-formula:before {
         background-image: url(../test-images/banner_bio-formula_1000.png);
     }
 
-    .detoxive.banner:before {
+    .banner_detoxive:before {
         background-image: url(../test-images/banner_detoxive_1000.png);
     }
 
-    .orange-slim.banner:before {
+    .banner_orange-slim:before {
         background-image: url(../test-images/banner_orange-slim_1000.png);
     }
 
-    .stop-problem.banner:before {
+    .banner_stop-problem:before {
         background-image: url(../test-images/banner_stop-problem_1000.png);
     }
 
-    .fruit-kiss.banner:before {
+    .banner_fruit-kiss:before {
         background-image: url(../test-images/banner_fruit-kiss_1000.png);
     }
 }
 
 @media all and (min-width: 1280px) {
-    .collagen.banner:before {
+    .banner_collagen:before {
         background-image: url(../test-images/banner_collagen_1280.png);
     }
 
-    .dr-hand.banner:before {
+    .banner_dr-hand:before {
         background-image: url(../test-images/banner_dr-hand_1280.png);
     }
 
-    .dr-foot.banner:before {
+    .banner_dr-foot:before {
         background-image: url(../test-images/banner_dr-foot_1280.png);
     }
 
-    .sun-power.banner:before {
+    .banner_sun-power:before {
         background-image: url(../test-images/banner_sun-power_1280.png);
     }
 
-    .bio-formula.banner:before {
+    .banner_bio-formula:before {
         background-image: url(../test-images/banner_bio-formula_1280.png);
     }
 
-    .detoxive.banner:before {
+    .banner_detoxive:before {
         background-image: url(../test-images/banner_detoxive_1280.png);
     }
 
-    .orange-slim.banner:before {
+    .banner_orange-slim:before {
         background-image: url(../test-images/banner_orange-slim_1280.png);
     }
 
-    .stop-problem.banner:before {
+    .banner_stop-problem:before {
         background-image: url(../test-images/banner_stop-problem_1280.png);
     }
 
-    .fruit-kiss.banner:before {
+    .banner_fruit-kiss:before {
         background-image: url(../test-images/banner_fruit-kiss_1280.png);
     }
 }
 
 @media all and (min-width: 1920px) {
-    .collagen.banner:before {
+    .banner_collagen:before {
         background-image: url(../test-images/banner_collagen_1920.png);
     }
 
-    .dr-hand.banner:before {
+    .banner_dr-hand:before {
         background-image: url(../test-images/banner_dr-hand_1920.png);
     }
 
-    .dr-foot.banner:before {
+    .banner_dr-foot:before {
         background-image: url(../test-images/banner_dr-foot_1920.png);
     }
 
-    .sun-power.banner:before {
+    .banner_sun-power:before {
         background-image: url(../test-images/banner_sun-power_1920.png);
     }
 
-    .bio-formula.banner:before {
+    .banner_bio-formula:before {
         background-image: url(../test-images/banner_bio-formula_1920.png);
     }
 
-    .detoxive.banner:before {
+    .banner_detoxive:before {
         background-image: url(../test-images/banner_detoxive_1920.png);
     }
 
-    .orange-slim.banner:before {
+    .banner_orange-slim:before {
         background-image: url(../test-images/banner_orange-slim_1920.png);
     }
 
-    .stop-problem.banner:before {
+    .banner_stop-problem:before {
         background-image: url(../test-images/banner_stop-problem_1920.png);
     }
 
-    .fruit-kiss.banner:before {
+    .banner_fruit-kiss:before {
         background-image: url(../test-images/banner_fruit-kiss_1920.png);
     }
 }

@@ -1,20 +1,17 @@
-.collagen {
-}
-
-.collagen__image-1 {
+.banner_collagen .banner__image_1 {
     z-index: 1;
     width: 614px;
     height: 654px;
     background: url(../i/collagen__face.png) 0 0 no-repeat;
 }
 
-.collagen__image-2 {
+.banner_collagen .banner__image_2 {
     width: 534px;
     height: 694px;
     background: url(../i/collagen__bg.png) 0 0 no-repeat;
 }
 
-.collagen__image-3 {
+.banner_collagen .banner__image_3 {
     position: absolute;
     z-index: 2;
     width: 315px;
@@ -22,7 +19,7 @@
     background: url(../i/collagen__features.png);
 }
 
-.collagen__logo {
+.banner_collagen .banner__logo {
     position: absolute;
     z-index: 3;
     width: 252px;
@@ -30,7 +27,7 @@
     background: url(../i/collagen__logo.png) 0 0 no-repeat;
 }
 
-.collagen__description {
+.banner_collagen .banner__description {
     position: relative;
     z-index: 2;
     border-radius: 5px;
@@ -40,196 +37,196 @@
     line-height: 20px;
 }
 
-.collagen__description .banner__p {
+.banner_collagen .banner__p {
     margin: 0;
 }
 
-.collagen__description .banner__p + .banner__p {
+.banner_collagen .banner__p + .banner__p {
     margin-top: 20px;
 }
 
-.collagen__description .collagen__header {
+.banner_collagen .banner__header {
     color: #93e1ff;
     font-weight: bold;
     font-size: 21px;
     line-height: 30px;
 }
 
-.collagen__description .collagen__header + .banner__p {
+.banner_collagen .banner__header + .banner__p {
     margin-bottom: -7px;
     font-size: 16px;
     line-height: 23px;
 }
 
-.collagen__description span {
+.banner_collagen .banner__description span {
     color: #e999d3;
 }
 
-.collagen__logo,
-.collagen__description {
+.banner_collagen .banner__logo,
+.banner_collagen .banner__description {
     transition: all .3s ease-out;
 }
 
 @media all and (max-width: 759px) {
-    .banner__inner {
+    .banner_collagen .banner__inner {
         padding: 210px 0 261px;
     }
 
-    .collagen__image-1 {
+    .banner_collagen .banner__image_1 {
         display: none;
     }
 
-    .collagen__image-2 {
+    .banner_collagen .banner__image_2 {
         top: 346px;
         right: -137px;
     }
 
-    .collagen__image-3 {
+    .banner_collagen .banner__image_3 {
         top: 107px;
         left: 13px;
     }
 
-    .collagen__logo {
+    .banner_collagen .banner__logo {
         top: -2px;
         left: 56px;
         background-size: 229px;
     }
 
-    .collagen__description {
+    .banner_collagen .banner__description {
         padding: 11px 7px 16px 13px;
         width: 320px;
     }
 
-    .collagen__description .banner__p:nth-child(3) {
+    .banner_collagen .banner__p:nth-child(3) {
         margin-top: 3px;
     }
 }
 
 @media all and (min-width: 760px) and (max-width: 999px) {
-    .banner__inner {
+    .banner_collagen .banner__inner {
         padding: 262px 0 18px;
     }
 
-    .collagen__image-1 {
+    .banner_collagen .banner__image_1 {
         top: 1px;
         right: -122px;
         background-size: 690px;
     }
 
-    .collagen__image-2 {
+    .banner_collagen .banner__image_2 {
         top: 28px;
         right: -11px;
     }
 
-    .collagen__image-3 {
+    .banner_collagen .banner__image_3 {
         top: 156px;
         left: 14px;
     }
 
-    .collagen__logo {
+    .banner_collagen .banner__logo {
         top: 39px;
         left: 4px;
     }
 
-    .collagen__description {
+    .banner_collagen .banner__description {
         padding: 11px 13px 13px;
         width: 380px;
     }
 
-    .collagen__description .banner__p:nth-child(3) {
+    .banner_collagen .banner__p:nth-child(3) {
         margin-top: 3px;
     }
 }
 
 @media all and (min-width: 1000px) and (max-width: 1279px) {
-    .banner__inner {
+    .banner_collagen .banner__inner {
         padding: 158px 0 45px;
     }
 
-    .collagen__image-1 {
+    .banner_collagen .banner__image_1 {
         top: -4px;
         right: -122px;
         background-size: 600px;
     }
 
-    .collagen__image-2 {
+    .banner_collagen .banner__image_2 {
         top: -31px;
         right: 124px;
     }
 
-    .collagen__image-3 {
+    .banner_collagen .banner__image_3 {
         top: 52px;
         left: 298px;
     }
 
-    .collagen__logo {
+    .banner_collagen .banner__logo {
         top: 37px;
         left: 5px;
     }
 
-    .collagen__description {
+    .banner_collagen .banner__description {
         padding: 3px 15px 13px;
         width: 445px;
     }
 }
 
 @media all and (min-width: 1280px) and (max-width: 1919px) {
-    .banner__inner {
+    .banner_collagen .banner__inner {
         padding: 158px 0 22px;
     }
 
-    .collagen__image-1 {
+    .banner_collagen .banner__image_1 {
         top: -14px;
         right: -80px;
     }
 
-    .collagen__image-2 {
+    .banner_collagen .banner__image_2 {
         top: -31px;
         right: 286px;
     }
 
-    .collagen__image-3 {
+    .banner_collagen .banner__image_3 {
         top: 237px;
         left: 454px;
     }
 
-    .collagen__logo {
+    .banner_collagen .banner__logo {
         top: 41px;
         left: 4px;
     }
 
-    .collagen__description {
+    .banner_collagen .banner__description {
         padding: 5px 15px 15px;
         width: 395px;
     }
 }
 
 @media all and (min-width: 1920px) {
-    .banner__inner {
+    .banner_collagen .banner__inner {
         padding: 170px 0 20px;
     }
 
-    .collagen__image-1 {
+    .banner_collagen .banner__image_1 {
         top: 0;
         right: 42px;
     }
 
-    .collagen__image-2 {
+    .banner_collagen .banner__image_2 {
         top: -87px;
         right: 408px;
     }
 
-    .collagen__image-3 {
+    .banner_collagen .banner__image_3 {
         top: 251px;
         left: 605px;
     }
 
-    .collagen__logo {
+    .banner_collagen .banner__logo {
         top: 39px;
         left: 9px;
     }
 
-    .collagen__description {
+    .banner_collagen .banner__description {
         padding: 8px 18px 20px;
         width: 469px;
     }
