@@ -1,6 +1,6 @@
 $(function() {
     function getStoresByCity(city) {
-        return $.get('http://michel.edu-surgut.ru/geo/index.php?city=' + city).then(function(res) {
+        return $.get('//michel.edu-surgut.ru/geo/index.php?city=' + city).then(function(res) {
             return JSON.parse(res);
         });
     }

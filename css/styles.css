@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    overflow: hidden;
+}
+
+.banner__inner {
+    position: relative;
+    margin: auto;
+    transition: all .3s ease-out;
+}
+
+.banner__image {
+    position: absolute;
+    transition: all .3s ease-out;
+}
+
+@media all and (max-width: 760px) {
+    .banner__inner {
+        width: 340px;
+    }
+}
+
+@media all and (min-width: 760px) {
+    .banner__inner {
+        width: 738px;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .banner__inner {
+        width: 968px;
+    }
+}
+
+@media all and (min-width: 1280px) {
+    .banner__inner {
+        width: 1226px;
+    }
+}
+
+@media all and (min-width: 1920px) {
+    .banner__inner {
+        width: 1524px;
+    }
+}
