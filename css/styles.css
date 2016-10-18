@@ -15,28 +15,30 @@ html, body {
 
 .banner__image {
     position: absolute;
+    background-position: 0 0;
+    background-repeat: no-repeat;
     transition: all .3s ease-out;
 }
 
-@media all and (max-width: 760px) {
+@media all and (max-width: 759px) {
     .banner__inner {
         width: 340px;
     }
 }
 
-@media all and (min-width: 760px) {
+@media all and (min-width: 760px) and (max-width: 999px) {
     .banner__inner {
         width: 738px;
     }
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 1000px) and (max-width: 1279px) {
     .banner__inner {
         width: 968px;
     }
 }
 
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1280px) and (max-width: 1919px) {
     .banner__inner {
         width: 1226px;
     }

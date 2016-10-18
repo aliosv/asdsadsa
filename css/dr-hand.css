@@ -1,0 +1,243 @@
+.dr-hand {
+}
+
+.dr-hand__image-1 {
+    width: 1001px;
+    height: 687px;
+    background-image: url(../i/dr-hand__hands.png);
+    z-index: 1;
+}
+
+.dr-hand__image-2 {
+    width: 215px;
+    height: 73px;
+    background-image: url(../i/dr-hand__protect.png);
+}
+
+.dr-hand__image-3 {
+    width: 247px;
+    height: 28px;
+    background-image: url(../i/dr-hand__features.png);
+}
+
+.dr-hand__logo {
+    position: absolute;
+    z-index: 1;
+    width: 214px;
+    height: 34px;
+    background: url(../i/dr-hand__logo.png) 0 0 no-repeat;
+}
+
+.dr-hand__description {
+    position: relative;
+    border-radius: 5px;
+    background: #007940;
+    color: #ffffff;
+    font: 16px Arimo;
+    line-height: 20px;
+}
+
+.dr-hand__description p {
+    margin: 0;
+}
+
+.dr-hand__description ul {
+    padding: 0 0 0 15px;
+}
+
+.dr-hand__logo,
+.dr-hand__description {
+    transition: all .3s ease-out;
+}
+
+@media all and (max-width: 759px) {
+    .banner__inner {
+        padding: 143px 0 137px;
+    }
+
+    .dr-hand__image-1 {
+        left: 159px;
+        bottom: -396px;
+        background-size: 510px;
+    }
+
+    .dr-hand__image-2 {
+        left: 0;
+        bottom: 53px;
+        background-size: 189px;
+    }
+
+    .dr-hand__image-3 {
+        top: 92px;
+        left: 47px;
+    }
+
+    .dr-hand__logo {
+        top: 30px;
+        left: 64px;
+    }
+
+    .dr-hand__description {
+        padding: 13px 20px 8px 13px;
+        width: 307px;
+    }
+
+    .dr-hand__description ul {
+        margin: 21px -10px 0 0;
+        padding: 0 0 0 15px;
+        line-height: 25px;
+    }
+
+    .dr-hand__description ul li + li {
+        margin-top: 20px;
+    }
+}
+
+@media all and (min-width: 760px) and (max-width: 999px) {
+    .banner__inner {
+        padding: 227px 0 28px;
+    }
+
+    .dr-hand__image-1 {
+        top: -31px;
+        right: -651px;
+    }
+
+    .dr-hand__image-2 {
+        top: 46px;
+        right: 242px;
+        background-size: 189px;
+    }
+
+    .dr-hand__image-3 {
+        top: 165px;
+        left: 15px;
+    }
+
+    .dr-hand__logo {
+        top: 77px;
+        left: 14px;
+    }
+
+    .dr-hand__description {
+        padding: 10px 30px 13px 14px;
+        width: 383px;
+    }
+
+    .dr-hand__description ul {
+        margin: 26px 0 0;
+        padding: 0 0 0 15px;
+        line-height: 25px;
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1279px) {
+    .banner__inner {
+        padding: 160px 0 23px;
+    }
+
+    .dr-hand__image-1 {
+        top: -53px;
+        right: -548px;
+    }
+
+    .dr-hand__image-2 {
+        top: 83px;
+        right: 457px;
+        background-size: 189px;
+    }
+
+    .dr-hand__image-3 {
+        top: 39px;
+        left: 296px;
+    }
+
+    .dr-hand__logo {
+        top: 77px;
+        left: 14px;
+    }
+
+    .dr-hand__description {
+        padding: 10px 50px 13px 14px;
+        width: 427px;
+    }
+
+    .dr-hand__description ul {
+        margin: 17px -40px 0 0;
+        padding: 0 0 0 15px;
+        line-height: 25px;
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1919px) {
+    .banner__inner {
+        padding: 172px 0 14px;
+    }
+
+    .dr-hand__image-1 {
+        top: -19px;
+        right: -292px;
+    }
+
+    .dr-hand__image-2 {
+        top: 250px;
+        right: 108px;
+    }
+
+    .dr-hand__image-3 {
+        top: 79px;
+        left: 315px;
+    }
+
+    .dr-hand__logo {
+        top: 77px;
+        left: 14px;
+    }
+
+    .dr-hand__description {
+        padding: 10px 50px 5px 16px;
+        width: 429px;
+    }
+
+    .dr-hand__description ul {
+        margin: 21px -40px 0 0;
+        padding: 0 0 0 15px;
+        line-height: 25px;
+    }
+}
+
+@media all and (min-width: 1920px) {
+    .banner__inner {
+        padding: 170px 0 41px;
+    }
+
+    .dr-hand__image-1 {
+        top: -20px;
+        right: -197px;
+    }
+
+    .dr-hand__image-2 {
+        top: 249px;
+        right: 203px;
+    }
+
+    .dr-hand__image-3 {
+        top: 79px;
+        left: 316px;
+    }
+
+    .dr-hand__logo {
+        top: 76px;
+        left: 18px;
+    }
+
+    .dr-hand__description {
+        padding: 12px 28px 17px 18px;
+        width: 556px;
+    }
+
+    .dr-hand__description ul {
+        margin: 28px 0 0;
+        line-height: 30px;
+    }
+}
