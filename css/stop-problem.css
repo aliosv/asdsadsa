@@ -1,0 +1,321 @@
+.banner_stop-problem .banner__image_1 {
+    width: 551px;
+    height: 674px;
+    background-image: url(../i/stop-problem__bg.png);
+}
+
+.banner_stop-problem .banner__image_2 {
+    min-width: 129px;
+    height: 350px;
+    background-image: url(../i/stop-problem__body.png);
+    background-position: 100% 0;
+}
+
+.banner_stop-problem .banner__image_2 .banner__image-text {
+    padding: 55px 159px 0 0;
+    color: #f89c57;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.banner_stop-problem .banner__image_2 .banner__image-text div + div {
+    margin-top: 12px;
+}
+
+.banner_stop-problem .banner__image_3 {
+    width: 274px;
+    height: 47px;
+    background-image: url(../i/stop-problem__features.png);
+}
+
+.banner_stop-problem .banner__logo {
+    position: absolute;
+    z-index: 1;
+    width: 277px;
+    height: 109px;
+    background: url(../i/stop-problem__logo.png) 0 0 no-repeat;
+}
+
+.banner_stop-problem .banner__description {
+    border-radius: 5px;
+    background: #6acbe0;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.banner_stop-problem .banner__footnote {
+    color: #252c6a;
+}
+
+.banner_stop-problem .banner__header {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: normal;
+}
+
+.banner_stop-problem .banner__logo,
+.banner_stop-problem .banner__description {
+    transition: all .3s ease-out;
+}
+
+@media all and (max-width: 759px) {
+    .banner_stop-problem .banner__inner {
+        padding: 291px 0 181px;
+    }
+
+    .banner_stop-problem .banner__image_1 {
+        right: -398px;
+        bottom: -486px;
+        background-size: 203px;
+    }
+
+    .banner_stop-problem .banner__image_2 {
+        right: 128px;
+        bottom: -177px;
+        background-size: 59px;
+    }
+
+    .banner_stop-problem .banner__image_2 .banner__image-text {
+        padding: 16px 80px 0 0;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .banner_stop-problem .banner__image_3 {
+        bottom: 187px;
+        left: 11px;
+        background-size: 239px;
+    }
+
+    .banner_stop-problem .banner__logo {
+        top: 10px;
+        left: 76px;
+        background-size: 189px;
+    }
+
+    .banner_stop-problem .banner__header {
+        margin-bottom: 8px;
+        padding-right: 50px;
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .banner_stop-problem .banner__description {
+        padding: 7px 10px 12px 10px;
+        width: 319px;
+    }
+
+    .banner_stop-problem .banner__footnote {
+        position: absolute;
+        top: 235px;
+        left: 10px;
+    }
+}
+
+@media all and (min-width: 760px) and (max-width: 999px) {
+    .banner_stop-problem .banner__inner {
+        padding: 146px 0 15px;
+    }
+
+    .banner_stop-problem .banner__image_1 {
+        right: -237px;
+        bottom: -209px;
+        background-size: 430px;
+    }
+
+    .banner_stop-problem .banner__image_2 {
+        top: 185px;
+        right: 203px;
+        background-size: 104px;
+    }
+
+    .banner_stop-problem .banner__image_2 .banner__image-text {
+        display: none;
+    }
+
+    .banner_stop-problem .banner__image_3 {
+        top: 45px;
+        left: 271px;
+    }
+
+    .banner_stop-problem .banner__logo {
+        top: 40px;
+        left: 14px;
+        background-size: 241px;
+    }
+
+    .banner_stop-problem .banner__header {
+        margin-bottom: 8px;
+        font-size: 17px;
+    }
+
+    .banner_stop-problem .banner__description {
+        padding: 11px 14px 17px 13px;
+        width: 297px;
+    }
+
+    .banner_stop-problem .banner__footnote {
+        margin-top: 11px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1279px) {
+    .banner_stop-problem .banner__inner {
+        padding: 158px 0 14px;
+    }
+
+    .banner_stop-problem .banner__image_1 {
+        right: -205px;
+        bottom: -157px;
+        background-size: 422px;
+    }
+
+    .banner_stop-problem .banner__image_2 {
+        top: 115px;
+        right: 206px;
+    }
+
+    .banner_stop-problem .banner__image_2 .banner__image-text {
+        padding-right: 147px;
+        width: 150px;
+        font-size: 14px;
+    }
+
+    .banner_stop-problem .banner__image_3 {
+        top: 36px;
+        left: 527px;
+    }
+
+    .banner_stop-problem .banner__logo {
+        top: 39px;
+        left: 15px;
+        background-size: 241px;
+    }
+
+    .banner_stop-problem .banner__header {
+        position: absolute;
+        top: 86px;
+        left: 140px;
+    }
+
+    .banner_stop-problem .banner__description {
+        padding: 12px 20px 20px 15px;
+        width: 426px;
+    }
+
+    .banner_stop-problem .banner__footnote {
+        margin-top: 24px;
+    }
+
+    .banner_stop-problem .banner__header {
+        position: absolute;
+        top: 38px;
+        left: 295px;
+        width: 200px;
+        color: #f89c57;
+        font-size: 17px;
+        line-height: 24px;
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1919px) {
+    .banner_stop-problem .banner__inner {
+        padding: 156px 0 10px;
+    }
+
+    .banner_stop-problem .banner__image_1 {
+        right: -99px;
+        bottom: -130px;
+    }
+
+    .banner_stop-problem .banner__image_2 {
+        top: 116px;
+        right: 365px;
+    }
+
+    .banner_stop-problem .banner__image_3 {
+        top: 36px;
+        left: 586px;
+    }
+
+    .banner_stop-problem .banner__logo {
+        top: 37px;
+        left: 14px;
+    }
+
+    .banner_stop-problem .banner__header {
+        position: absolute;
+        top: 87px;
+        left: 140px;
+    }
+
+    .banner_stop-problem .banner__description {
+        padding: 14px 10px 13px 14px;
+        width: 407px;
+    }
+
+    .banner_stop-problem .banner__footnote {
+        margin-top: 14px;
+    }
+
+    .banner_stop-problem .banner__header {
+        position: absolute;
+        top: 46px;
+        left: 283px;
+        width: 260px;
+        color: #f89c57;
+    }
+
+    .banner_stop-problem .banner__list {
+        margin-top: 11px;
+    }
+
+    .banner_stop-problem .banner__list-item {
+        line-height: 25px;
+    }
+}
+
+@media all and (min-width: 1920px) {
+    .banner_stop-problem .banner__inner {
+        padding: 170px 0 39px;
+    }
+
+    .banner_stop-problem .banner__image_1 {
+        right: 8px;
+        bottom: -127px;
+    }
+
+    .banner_stop-problem .banner__image_2 {
+        top: 118px;
+        right: 438px;
+    }
+
+    .banner_stop-problem .banner__image_3 {
+        top: 38px;
+        left: 811px;
+    }
+
+    .banner_stop-problem .banner__logo {
+        top: 38px;
+        left: 18px;
+    }
+
+    .banner_stop-problem .banner__header {
+        margin-bottom: 12px;
+    }
+
+    .banner_stop-problem .banner__description {
+        padding: 11px 10px 12px 18px;
+        width: 562px;
+    }
+
+    .banner_stop-problem .banner__footnote {
+        margin-top: 56px;
+    }
+}
