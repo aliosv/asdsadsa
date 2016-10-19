@@ -1,0 +1,266 @@
+.banner_detoxive .banner__image_1 {
+    width: 271px;
+    height: 480px;
+    background-image: url(../i/detoxive__bg.png);
+}
+
+.banner_detoxive .banner__image_2 {
+    z-index: 1;
+    width: 519px;
+    height: 575px;
+    background-image: url(../i/detoxive__face.png);
+}
+
+.banner_detoxive .banner__image_3 {
+    width: 228px;
+    height: 84px;
+    background-image: url(../i/detoxive__features.png);
+}
+
+.banner_detoxive .banner__logo {
+    position: absolute;
+    z-index: 1;
+    width: 218px;
+    height: 44px;
+    background: url(../i/detoxive__logo.png) 0 0 no-repeat;
+}
+
+.banner_detoxive .banner__description {
+    border-radius: 5px;
+    background: #8cb546;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.banner_detoxive .banner__list {
+    position: absolute;
+    color: #000;
+    font-size: 0;
+}
+
+.banner_detoxive .banner__list-item {
+    margin: 0;
+    padding: 2px 0 3px 40px;
+    background: url(../i/detoxive__marker.png) 0 4px no-repeat;
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.banner_detoxive .banner__list-item + .banner__list-item {
+    margin-top: 50px;
+}
+
+.banner_detoxive .banner__logo,
+.banner_detoxive .banner__description,
+.banner_detoxive .banner__list {
+    transition: all .3s ease-out;
+}
+
+@media all and (max-width: 759px) {
+    .banner_detoxive .banner__inner {
+        padding: 295px 0 153px;
+    }
+
+    .banner_detoxive .banner__image_1 {
+        right: -87px;
+        bottom: -336px;
+        background-size: 110px;
+    }
+
+    .banner_detoxive .banner__image_2 {
+        right: -362px;
+        bottom: -377px;
+        background-size: 210px;
+    }
+
+    .banner_detoxive .banner__image_3 {
+        top: 106px;
+        left: 70px;
+        background-size: 200px;
+    }
+
+    .banner_detoxive .banner__logo {
+        top: 28px;
+        left: 62px;
+    }
+
+    .banner_detoxive .banner__description {
+        padding: 10px 9px 13px 11px;
+        width: 320px;
+    }
+
+    .banner_detoxive .banner__list {
+        top: 210px;
+        left: 11px;
+    }
+
+    .banner_detoxive .banner__list-item {
+        display: inline-block;
+        box-sizing: border-box;
+        margin: 0 0 9px !important;
+        vertical-align: top;
+        font-size: 15px;
+    }
+
+    .banner_detoxive .banner__list-item:nth-child(2n) {
+        margin-left: 19px !important;
+    }
+}
+
+@media all and (min-width: 760px) and (max-width: 999px) {
+    .banner_detoxive .banner__inner {
+        padding: 166px 0 63px;
+    }
+
+    .banner_detoxive .banner__image_1 {
+        right: 187px;
+        bottom: -43px;
+        z-index: -1;
+    }
+
+    .banner_detoxive .banner__image_2 {
+        right: -133px;
+        bottom: -2px;
+    }
+
+    .banner_detoxive .banner__image_3 {
+        top: 54px;
+        left: 278px;
+        background-size: 200px;
+    }
+
+    .banner_detoxive .banner__logo {
+        top: 72px;
+        left: 14px;
+    }
+
+    .banner_detoxive .banner__description {
+        padding: 16px 14px 1px;
+        width: 449px;
+    }
+
+    .banner_detoxive .banner__list {
+        position: static;
+        margin: 14px 0 0;
+        color: inherit;
+    }
+
+    .banner_detoxive .banner__list-item {
+        display: inline-block;
+        box-sizing: border-box;
+        margin: 0 0 10px !important;
+        width: 50%;
+        vertical-align: top;
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1279px) {
+    .banner_detoxive .banner__inner {
+        padding: 166px 0 33px;
+    }
+
+    .banner_detoxive .banner__image_1 {
+        right: 150px;
+        bottom: -147px;
+        background-size: 210px;
+    }
+
+    .banner_detoxive .banner__image_2 {
+        right: -109px;
+        bottom: -18px;
+    }
+
+    .banner_detoxive .banner__image_3 {
+        top: 44px;
+        left: 443px;
+    }
+
+    .banner_detoxive .banner__logo {
+        top: 71px;
+        left: 15px;
+    }
+
+    .banner_detoxive .banner__description {
+        padding: 5px 14px 24px;
+        width: 399px;
+    }
+
+    .banner_detoxive .banner__list {
+        top: 183px;
+        left: 475px;
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1919px) {
+    .banner_detoxive .banner__inner {
+        padding: 168px 0 19px;
+    }
+
+    .banner_detoxive .banner__image_1 {
+        right: 273px;
+        bottom: -60px;
+    }
+
+    .banner_detoxive .banner__image_2 {
+        right: -27px;
+        bottom: -20px;
+    }
+
+    .banner_detoxive .banner__image_3 {
+        top: 45px;
+        left: 500px;
+    }
+
+    .banner_detoxive .banner__logo {
+        top: 71px;
+        left: 14px;
+    }
+
+    .banner_detoxive .banner__description {
+        padding: 13px 13px 27px;
+        width: 402px;
+    }
+
+    .banner_detoxive .banner__list {
+        top: 184px;
+        left: 502px;
+    }
+}
+
+@media all and (min-width: 1920px) {
+    .banner_detoxive .banner__inner {
+        padding: 165px 0 63px;
+    }
+
+    .banner_detoxive .banner__image_1 {
+        right: 427px;
+        bottom: -128px;
+    }
+
+    .banner_detoxive .banner__image_2 {
+        right: 107px;
+        bottom: -18px;
+    }
+
+    .banner_detoxive .banner__image_3 {
+        top: 45px;
+        left: 664px;
+    }
+
+    .banner_detoxive .banner__logo {
+        top: 71px;
+        left: 19px;
+    }
+
+    .banner_detoxive .banner__description {
+        padding: 16px 18px 24px;
+        width: 558px;
+    }
+
+    .banner_detoxive .banner__list {
+        top: 183px;
+        left: 666px;
+    }
+}
