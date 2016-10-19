@@ -1,0 +1,203 @@
+.banner_sun-power .banner__image_1 {
+    width: 829px;
+    height: 594px;
+    background-image: url(../i/sun-power__bg.png);
+}
+
+.banner_sun-power .banner__image_2 {
+    width: 182px;
+    height: 91px;
+    background-image: url(../i/sun-power__features.png);
+}
+
+.banner_sun-power .banner__logo {
+    position: absolute;
+    z-index: 1;
+    width: 92px;
+    height: 129px;
+    background: url(../i/sun-power__logo.png) 0 0 no-repeat;
+}
+
+.banner_sun-power .banner__description {
+    color: #303030;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.banner_sun-power .banner__description span {
+    color: #f04e3b;
+    font-weight: bold;
+}
+
+.banner_sun-power .banner__header {
+    color: #ef3e33;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    line-height: normal;
+}
+
+.banner_sun-power .banner__logo,
+.banner_sun-power .banner__description {
+    transition: all .3s ease-out;
+}
+
+@media all and (max-width: 759px) {
+    .banner__inner {
+        padding: 118px 0 243px;
+    }
+
+    .banner_sun-power .banner__image_1 {
+        left: 65px;
+        bottom: -322px;
+        background-size: 380px;
+    }
+
+    .banner_sun-power .banner__image_2 {
+        bottom: 59px;
+        left: 7px;
+        background-size: 115px;
+    }
+
+    .banner_sun-power .banner__logo {
+        top: 3px;
+        left: 139px;
+        background-size: 63px;
+    }
+
+    .banner_sun-power .banner__header {
+        text-align: center;
+    }
+
+    .banner_sun-power .banner__description {
+        margin: 22px 0 0 11px;
+        width: 320px;
+    }
+}
+
+@media all and (min-width: 760px) and (max-width: 999px) {
+    .banner__inner {
+        padding: 182px 0 12px;
+    }
+
+    .banner_sun-power .banner__image_1 {
+        top: 106px;
+        right: -331px;
+        background-size: 760px;
+    }
+
+    .banner_sun-power .banner__image_2 {
+        top: 35px;
+        right: 14px;
+    }
+
+    .banner_sun-power .banner__logo {
+        top: 26px;
+        left: 14px;
+    }
+
+    .banner_sun-power .banner__header {
+        left: 149px;
+        position: absolute;
+        top: 75px;
+    }
+
+    .banner_sun-power .banner__description {
+        margin-left: 14px;
+        width: 300px;
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1279px) {
+    .banner__inner {
+        padding: 181px 0 7px;
+    }
+
+    .banner_sun-power .banner__image_1 {
+        top: -37px;
+        right: -280px;
+    }
+
+    .banner_sun-power .banner__image_2 {
+        top: 50px;
+        left: 373px;
+    }
+
+    .banner_sun-power .banner__logo {
+        top: 25px;
+        left: 14px;
+    }
+
+    .banner_sun-power .banner__header {
+        position: absolute;
+        left: 140px;
+        top: 86px;
+    }
+
+    .banner_sun-power .banner__description {
+        margin-left: 12px;
+        width: 420px;
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1919px) {
+    .banner__inner {
+        padding: 182px 0 5px;
+    }
+
+    .banner_sun-power .banner__image_1 {
+        top: -36px;
+        right: -198px;
+    }
+
+    .banner_sun-power .banner__image_2 {
+        top: 214px;
+        left: 521px;
+    }
+
+    .banner_sun-power .banner__logo {
+        top: 26px;
+        left: 14px;
+    }
+
+    .banner_sun-power .banner__header {
+        position: absolute;
+        top: 87px;
+        left: 140px;
+    }
+
+    .banner_sun-power .banner__description {
+        margin: 0 0 0 13px;
+        width: 415px;
+    }
+}
+
+@media all and (min-width: 1920px) {
+    .banner__inner {
+        padding: 180px 0 30px;
+    }
+
+    .banner_sun-power .banner__image_1 {
+        top: -37px;
+        right: -69px;
+    }
+
+    .banner_sun-power .banner__image_2 {
+        top: 213px;
+        left: 600px;
+    }
+
+    .banner_sun-power .banner__logo {
+        top: 25px;
+        left: 18px;
+    }
+
+    .banner_sun-power .banner__header {
+        padding: 0 0 0 17px;
+    }
+
+    .banner_sun-power .banner__description {
+        margin: 10px 0 0 18px;
+        width: 519px;
+    }
+}
