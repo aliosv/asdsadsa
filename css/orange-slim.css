@@ -5,9 +5,24 @@
 }
 
 .banner_orange-slim .banner__image_2 {
-    width: 129px;
+    min-width: 129px;
     height: 350px;
     background-image: url(../i/orange-slim__body.png);
+    background-position: 100% 0;
+}
+
+.banner_orange-slim .banner__image_2 .banner__image-text {
+    padding: 55px 159px 0 0;
+    color: #f89c57;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.banner_orange-slim .banner__image_2 .banner__image-text div + div {
+    margin-top: 12px;
 }
 
 .banner_orange-slim .banner__image_3 {
@@ -55,9 +70,15 @@
     }
 
     .banner_orange-slim .banner__image_2 {
-        bottom: -176px;
-        left: 153px;
+        right: 128px;
+        bottom: -177px;
         background-size: 59px;
+    }
+
+    .banner_orange-slim .banner__image_2 .banner__image-text {
+        padding: 16px 80px 0 0;
+        font-size: 12px;
+        line-height: 14px;
     }
 
     .banner_orange-slim .banner__image_3 {
@@ -104,9 +125,13 @@
     }
 
     .banner_orange-slim .banner__image_2 {
-        top: 186px;
-        right: 178px;
+        top: 185px;
+        right: 203px;
         background-size: 104px;
+    }
+
+    .banner_orange-slim .banner__image_2 .banner__image-text {
+        display: none;
     }
 
     .banner_orange-slim .banner__image_3 {
@@ -151,6 +176,12 @@
     .banner_orange-slim .banner__image_2 {
         top: 115px;
         right: 206px;
+    }
+
+    .banner_orange-slim .banner__image_2 .banner__image-text {
+        padding-right: 147px;
+        width: 150px;
+        font-size: 14px;
     }
 
     .banner_orange-slim .banner__image_3 {
