@@ -57,7 +57,7 @@
 }
 
 @media all and (max-width: 759px) {
-    .banner__inner {
+    .banner_dr-foot .banner__inner {
         padding: 137px 0 209px;
     }
 
@@ -105,7 +105,7 @@
 }
 
 @media all and (min-width: 760px) and (max-width: 999px) {
-    .banner__inner {
+    .banner_dr-foot .banner__inner {
         padding: 168px 0 11px;
     }
 
@@ -149,7 +149,7 @@
 }
 
 @media all and (min-width: 1000px) and (max-width: 1279px) {
-    .banner__inner {
+    .banner_dr-foot .banner__inner {
         padding: 160px 0 27px;
     }
 
@@ -190,7 +190,7 @@
 }
 
 @media all and (min-width: 1280px) and (max-width: 1919px) {
-    .banner__inner {
+    .banner_dr-foot .banner__inner {
         padding: 170px 0 57px;
     }
 
@@ -231,7 +231,7 @@
 }
 
 @media all and (min-width: 1920px) {
-    .banner__inner {
+    .banner_dr-foot .banner__inner {
         padding: 167px 0 51px;
     }
 

@@ -43,7 +43,7 @@
 }
 
 @media all and (max-width: 759px) {
-    .banner__inner {
+    .banner_sun-power .banner__inner {
         padding: 118px 0 243px;
     }
 
@@ -76,7 +76,7 @@
 }
 
 @media all and (min-width: 760px) and (max-width: 999px) {
-    .banner__inner {
+    .banner_sun-power .banner__inner {
         padding: 182px 0 12px;
     }
 
@@ -109,7 +109,7 @@
 }
 
 @media all and (min-width: 1000px) and (max-width: 1279px) {
-    .banner__inner {
+    .banner_sun-power .banner__inner {
         padding: 181px 0 7px;
     }
 
@@ -141,7 +141,7 @@
 }
 
 @media all and (min-width: 1280px) and (max-width: 1919px) {
-    .banner__inner {
+    .banner_sun-power .banner__inner {
         padding: 182px 0 5px;
     }
 
@@ -173,7 +173,7 @@
 }
 
 @media all and (min-width: 1920px) {
-    .banner__inner {
+    .banner_sun-power .banner__inner {
         padding: 180px 0 30px;
     }
 
