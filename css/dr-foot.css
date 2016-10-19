@@ -19,7 +19,6 @@
 }
 
 .banner_dr-foot .banner__description {
-    position: relative;
     border-radius: 5px;
     background: #2c3284;
     color: #ffffff;
@@ -63,8 +62,8 @@
     }
 
     .banner_dr-foot .banner__image_1 {
-        bottom: -135px;
         right: -128px;
+        bottom: -135px;
         background-size: 220px;
     }
 
@@ -79,12 +78,18 @@
     }
 
     .banner_dr-foot .banner__description {
-        padding: 9px 20px 19px 13px;
-        width: 307px;
+        position: relative;
+        z-index: 1;
+        padding: 9px 11px 19px 11px;
+        width: 318px;
+    }
+
+    .banner_dr-foot .banner__p {
+        padding: 0 31px 0 1px;
     }
 
     .banner_dr-foot .banner__header {
-        margin: 205px 0 0;
+        margin: 17px 0 0;
         padding: 33px 10px 25px;
         font-size: 14px;
     }
@@ -94,8 +99,8 @@
     }
 
     .banner_dr-foot .banner__list {
-        top: 345px;
-        left: 11px;
+        position: static;
+        margin: 19px -3px 0;
     }
 }
 
@@ -127,7 +132,7 @@
     }
 
     .banner_dr-foot .banner__header {
-        margin: 180px 95px 0 0;
+        margin: 10px 95px 0 0;
         padding: 33px 0 25px;
         font-size: 14px;
     }
@@ -137,8 +142,9 @@
     }
 
     .banner_dr-foot .banner__list {
-        top: 342px;
-        left: 14px;
+        position: static;
+        margin: 21px 0 0;
+        width: 285px;
     }
 }
 
