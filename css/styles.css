@@ -5,6 +5,7 @@ html, body {
 
 .banner {
     overflow: hidden;
+    font-family: Arimo;
 }
 
 .banner__inner {
