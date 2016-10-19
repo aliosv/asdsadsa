@@ -25,6 +25,8 @@
 }
 
 .banner_bio-formula .banner__description {
+    position: relative;
+    z-index: 1;
     border-radius: 5px;
     background: #8cb546;
     color: #ffffff;
