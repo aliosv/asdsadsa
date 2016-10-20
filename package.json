@@ -1,0 +1,13 @@
+{
+  "name": "michel-laboratory",
+  "version": "0.0.1",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "borschik": "^1.6.0",
+    "postcss-cli": "^2.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliosv/michel-lab.git"
+  }
+}
