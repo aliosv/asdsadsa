@@ -5,29 +5,8 @@
 }
 
 .banner_stop-problem .banner__image_2 {
-    min-width: 129px;
-    height: 350px;
-    background-image: url(../i/stop-problem__body.png);
-    background-position: 100% 0;
-}
-
-.banner_stop-problem .banner__image_2 .banner__image-text {
-    padding: 55px 159px 0 0;
-    color: #f89c57;
-    text-align: right;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
-}
-
-.banner_stop-problem .banner__image_2 .banner__image-text div + div {
-    margin-top: 12px;
-}
-
-.banner_stop-problem .banner__image_3 {
-    width: 274px;
-    height: 47px;
+    width: 229px;
+    height: 147px;
     background-image: url(../i/stop-problem__features.png);
 }
 
@@ -47,14 +26,16 @@
     line-height: 20px;
 }
 
-.banner_stop-problem .banner__footnote {
+.banner_stop-problem .banner__footnote,
+.banner_stop-problem .banner__about {
     color: #252c6a;
 }
 
-.banner_stop-problem .banner__header {
-    font-weight: bold;
-    font-size: 22px;
-    line-height: normal;
+.banner_stop-problem .banner__about {
+    position: absolute;
+    background: url(../i/stop-problem__soothex.png) 0 0 no-repeat;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .banner_stop-problem .banner__logo,
@@ -74,34 +55,15 @@
     }
 
     .banner_stop-problem .banner__image_2 {
-        right: 128px;
-        bottom: -177px;
-        background-size: 59px;
-    }
-
-    .banner_stop-problem .banner__image_2 .banner__image-text {
-        padding: 16px 80px 0 0;
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-    .banner_stop-problem .banner__image_3 {
-        bottom: 187px;
-        left: 11px;
-        background-size: 239px;
+        right: 99px;
+        bottom: 0;
+        background-size: 163px;
     }
 
     .banner_stop-problem .banner__logo {
         top: 10px;
         left: 76px;
         background-size: 189px;
-    }
-
-    .banner_stop-problem .banner__header {
-        margin-bottom: 8px;
-        padding-right: 50px;
-        font-size: 17px;
-        line-height: 24px;
     }
 
     .banner_stop-problem .banner__description {
@@ -113,6 +75,14 @@
         position: absolute;
         top: 235px;
         left: 10px;
+    }
+
+    .banner_stop-problem .banner__about {
+        top: 103px;
+        left: 11px;
+        padding: 36px 0 0;
+        width: 325px;
+        font-size: 14px;
     }
 }
 
@@ -128,29 +98,15 @@
     }
 
     .banner_stop-problem .banner__image_2 {
-        top: 185px;
-        right: 203px;
-        background-size: 104px;
-    }
-
-    .banner_stop-problem .banner__image_2 .banner__image-text {
-        display: none;
-    }
-
-    .banner_stop-problem .banner__image_3 {
-        top: 45px;
-        left: 271px;
+        top: 149px;
+        right: 168px;
+        background-size: 163px;
     }
 
     .banner_stop-problem .banner__logo {
         top: 40px;
         left: 14px;
         background-size: 241px;
-    }
-
-    .banner_stop-problem .banner__header {
-        margin-bottom: 8px;
-        font-size: 17px;
     }
 
     .banner_stop-problem .banner__description {
@@ -162,6 +118,14 @@
         margin-top: 11px;
         font-size: 14px;
         line-height: 17px;
+    }
+    
+    .banner_stop-problem .banner__about {
+        top: 40px;
+        left: 298px;
+        padding: 36px 0 0;
+        width: 405px;
+        font-size: 14px;
     }
 }
 
@@ -177,31 +141,15 @@
     }
 
     .banner_stop-problem .banner__image_2 {
-        top: 115px;
-        right: 206px;
-    }
-
-    .banner_stop-problem .banner__image_2 .banner__image-text {
-        padding-right: 147px;
-        width: 150px;
-        font-size: 14px;
-    }
-
-    .banner_stop-problem .banner__image_3 {
-        top: 36px;
-        left: 527px;
+        top: 177px;
+        right: 264px;
+        background-size: 163px;
     }
 
     .banner_stop-problem .banner__logo {
         top: 39px;
         left: 15px;
         background-size: 241px;
-    }
-
-    .banner_stop-problem .banner__header {
-        position: absolute;
-        top: 86px;
-        left: 140px;
     }
 
     .banner_stop-problem .banner__description {
@@ -213,14 +161,12 @@
         margin-top: 24px;
     }
 
-    .banner_stop-problem .banner__header {
-        position: absolute;
-        top: 38px;
+    .banner_stop-problem .banner__about {
+        top: 39px;
         left: 295px;
-        width: 200px;
-        color: #f89c57;
-        font-size: 17px;
-        line-height: 24px;
+        padding: 36px 0 0;
+        width: 400px;
+        font-size: 14px;
     }
 }
 
@@ -235,24 +181,13 @@
     }
 
     .banner_stop-problem .banner__image_2 {
-        top: 116px;
-        right: 365px;
-    }
-
-    .banner_stop-problem .banner__image_3 {
-        top: 36px;
-        left: 586px;
+        top: 42px;
+        right: 489px;
     }
 
     .banner_stop-problem .banner__logo {
         top: 37px;
         left: 14px;
-    }
-
-    .banner_stop-problem .banner__header {
-        position: absolute;
-        top: 87px;
-        left: 140px;
     }
 
     .banner_stop-problem .banner__description {
@@ -264,20 +199,13 @@
         margin-top: 14px;
     }
 
-    .banner_stop-problem .banner__header {
-        position: absolute;
-        top: 46px;
-        left: 283px;
-        width: 260px;
-        color: #f89c57;
-    }
-
-    .banner_stop-problem .banner__list {
-        margin-top: 11px;
-    }
-
-    .banner_stop-problem .banner__list-item {
-        line-height: 25px;
+    .banner_stop-problem .banner__about {
+        top: 227px;
+        right: 489px;
+        padding: 54px 0 0;
+        width: 270px;
+        background-position: 100% 0;
+        text-align: right;
     }
 }
 
@@ -292,22 +220,13 @@
     }
 
     .banner_stop-problem .banner__image_2 {
-        top: 118px;
-        right: 438px;
-    }
-
-    .banner_stop-problem .banner__image_3 {
-        top: 38px;
-        left: 811px;
+        top: 40px;
+        right: 638px;
     }
 
     .banner_stop-problem .banner__logo {
         top: 38px;
         left: 18px;
-    }
-
-    .banner_stop-problem .banner__header {
-        margin-bottom: 12px;
     }
 
     .banner_stop-problem .banner__description {
@@ -317,5 +236,14 @@
 
     .banner_stop-problem .banner__footnote {
         margin-top: 56px;
+    }
+
+    .banner_stop-problem .banner__about {
+        top: 225px;
+        right: 638px;
+        padding: 54px 0 0;
+        width: 270px;
+        background-position: 100% 0;
+        text-align: right;
     }
 }

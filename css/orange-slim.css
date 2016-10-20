@@ -194,12 +194,6 @@
         left: 15px;
     }
 
-    .banner_orange-slim .banner__header {
-        position: absolute;
-        top: 86px;
-        left: 140px;
-    }
-
     .banner_orange-slim .banner__description {
         padding: 8px 19px 4px 15px;
         width: 414px;
@@ -247,12 +241,6 @@
     .banner_orange-slim .banner__logo {
         top: 50px;
         left: 14px;
-    }
-
-    .banner_orange-slim .banner__header {
-        position: absolute;
-        top: 87px;
-        left: 140px;
     }
 
     .banner_orange-slim .banner__description {
