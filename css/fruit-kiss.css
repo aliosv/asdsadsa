@@ -59,9 +59,20 @@
     }
 
     .banner_fruit-kiss .banner__image_2 {
-        right: 99px;
         bottom: 0;
-        background-size: 163px;
+        left: -10px;
+    }
+
+    .banner_fruit-kiss .banner__image_3 {
+        top: 108px;
+        left: 22px;
+        background-size: 104px;
+    }
+
+    .banner_fruit-kiss .banner__image_4 {
+        top: 123px;
+        left: 161px;
+        background-size: 166px;
     }
 
     .banner_fruit-kiss .banner__logo {
@@ -96,9 +107,20 @@
     }
 
     .banner_fruit-kiss .banner__image_2 {
-        top: 149px;
-        right: 168px;
-        background-size: 163px;
+        bottom: 0;
+        left: -11px;
+    }
+
+    .banner_fruit-kiss .banner__image_3 {
+        top: 37px;
+        right: -44px;
+        background-size: 109px;
+    }
+
+    .banner_fruit-kiss .banner__image_4 {
+        top: 52px;
+        left: 330px;
+        background-size: 166px;
     }
 
     .banner_fruit-kiss .banner__logo {
@@ -132,9 +154,20 @@
     }
 
     .banner_fruit-kiss .banner__image_2 {
-        top: 177px;
-        right: 264px;
-        background-size: 163px;
+        bottom: 0;
+        left: 15px;
+    }
+
+    .banner_fruit-kiss .banner__image_3 {
+        top: 44px;
+        right: 320px;
+        background-size: 91px;
+    }
+
+    .banner_fruit-kiss .banner__image_4 {
+        top: 52px;
+        left: 292px;
+        background-size: 166px;
     }
 
     .banner_fruit-kiss .banner__logo {
@@ -165,17 +198,19 @@
 
     .banner_fruit-kiss .banner__image_2 {
         bottom: 0;
-        left: 18px;
+        left: 14px;
     }
 
     .banner_fruit-kiss .banner__image_3 {
-        top: 38px;
-        right: 679px;
+        top: 35px;
+        right: 560px;
+        background-size: 136px;
     }
 
     .banner_fruit-kiss .banner__image_4 {
-        top: 247px;
-        right: 661px;
+        top: 272px;
+        right: 522px;
+        background-size: 131px;
     }
 
     .banner_fruit-kiss .banner__logo {
