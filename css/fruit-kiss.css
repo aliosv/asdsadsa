@@ -230,7 +230,7 @@
 
 @media all and (min-width: 1920px) {
     .banner_fruit-kiss .banner__inner {
-        padding: 169px 0 46px;
+        padding: 169px 0 66px;
     }
 
     .banner_fruit-kiss .banner__image_1 {
@@ -259,8 +259,8 @@
     }
 
     .banner_fruit-kiss .banner__description {
-        padding: 12px 35px 21px 17px;
-        width: 550px;
+        padding: 12px 25px 21px 17px;
+        width: 560px;
     }
 
     .banner_fruit-kiss .banner__footnote {

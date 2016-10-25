@@ -41,7 +41,7 @@
 
 @media all and (max-width: 759px) {
     .banner_dr-hand .banner__inner {
-        padding: 143px 0 137px;
+        padding: 143px 0 136px;
     }
 
     .banner_dr-hand .banner__image_1 {
@@ -78,6 +78,14 @@
 
     .banner_dr-hand .banner__description .banner__list-item + .banner__list-item {
         margin-top: 20px;
+    }
+
+    .banner_dr-hand .banner__description .banner__list-item:nth-last-child(1) {
+        width: 50%;
+    }
+
+    .banner_dr-hand .banner__description .banner__list-item:nth-last-child(2) {
+        width: 75%;
     }
 }
 
